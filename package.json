@@ -1,0 +1,14 @@
+{
+  "name": "mono-app-repo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:full": "npm run dev --workspace full-app",
+    "dev:cut": "npm run dev --workspace cut-app",
+    "build:full": "npm run build --workspace full-app",
+    "build:cut": "npm run build --workspace cut-app"
+  }
+}
