@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@myorg/ui";
+import { Button } from "@daxwell/ui";
 
 export default function Home() {
   return (

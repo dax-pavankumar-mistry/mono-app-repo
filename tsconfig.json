@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@myorg/ui": ["packages/ui/src"]
+      "@daxwell/ui": ["packages/ui/src"]
     }
   }
 }

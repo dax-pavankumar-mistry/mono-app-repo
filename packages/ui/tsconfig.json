@@ -1,10 +1,13 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "jsx": "react-jsx",          // <— REQUIRED for JSX
     "outDir": "dist",
     "declaration": true,
     "declarationDir": "dist",
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "module": "ESNext",
+    "moduleResolution": "Node"
   },
   "include": ["src"]
 }
