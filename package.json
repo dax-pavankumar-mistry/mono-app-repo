@@ -11,5 +11,9 @@
     "build:full": "yarn workspace full-app build",
     "build:cut": "yarn workspace cut-app build",
     "build:ui": "yarn workspace @daxwell/ui build"
+  },
+   "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   }
 }
