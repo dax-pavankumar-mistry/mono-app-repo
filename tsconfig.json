@@ -1,8 +1,15 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "baseUrl": ".",
     "paths": {
       "@daxwell/ui": ["packages/ui/src"]
-    }
+    },
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true
   }
 }

@@ -6,9 +6,10 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:full": "npm run dev --workspace full-app",
-    "dev:cut": "npm run dev --workspace cut-app",
-    "build:full": "npm run build --workspace full-app",
-    "build:cut": "npm run build --workspace cut-app"
+    "dev:full": "yarn workspace full-app dev",
+    "dev:cut": "yarn workspace cut-app dev",
+    "build:full": "yarn workspace full-app build",
+    "build:cut": "yarn workspace cut-app build",
+    "build:ui": "yarn workspace @daxwell/ui build"
   }
 }

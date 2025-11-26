@@ -19,8 +19,8 @@ export const Button: React.FC<ButtonProps> = ({
   };
 
   return (
-    <button className={variants[variant]} {...rest}>
+    <p className={variants[variant]} >
       {children}
-    </button>
+    </p>
   );
 };
