@@ -1,0 +1,18 @@
+version: 1
+applications:
+  - appRoot: apps/cut-app
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - yarn install
+        build:
+          commands:
+            - yarn workspace cut-app build
+      artifacts:
+        baseDirectory: .next
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
